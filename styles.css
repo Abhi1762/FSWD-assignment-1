@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#quiz, #result {
+    display: none;
+}
+
+#question {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#options {
+    margin-bottom: 20px;
+}
+
+#options div {
+    margin-bottom: 10px;
+}
+
+#timer {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#resultText {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#timeText {
+    font-style: italic;
+}
+
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+}

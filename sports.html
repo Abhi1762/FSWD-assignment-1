@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="login">
+        <h2>Login</h2>
+        <input type="text" id="username" placeholder="Username"><br><br>
+        <input type="password" id="password" placeholder="Password"><br><br>
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="quiz" style="display: none;">
+        <h2>Sports Quiz </h2>
+        <p id="question"></p>
+        <div id="options"></div>
+        <div id="timer">Time Remaining: </div>
+        <button onclick="submitAnswer()">Submit</button>
+    </div>
+
+    <div id="result" style="display: none;">
+        <h2>Result</h2>
+        <p id="resultText"></p>
+        <p id="timeText"></p>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
